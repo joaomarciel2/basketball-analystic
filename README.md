@@ -11,5 +11,6 @@ Além disso, o glossário das estatísticas também fora retirado do mesmo site,
 Base de dados: https://www.basketball-reference.com/leagues/NBA_2024_totals.html
 
 Glossário: 
- https://www.basketball-reference.com/about/glossary.html
- https://www.nba.com/stats/help/statminimums
+ - https://www.basketball-reference.com/about/glossary.html
+ 
+ - https://www.nba.com/stats/help/statminimums
