@@ -11,9 +11,3 @@ Além disso, o glossário das estatísticas também fora retirado do mesmo site,
 OBS: Nos arquivos csv foram acrescentados uma coluna chamada 'id_player', na qual na base original da Basketball Reference não possui essa coluna. O id_player foi acrescentado para que fosse possível a junção de tabelas na hora de fazer as análises.
 
 
-Base de dados: https://www.basketball-reference.com/leagues/NBA_2024_totals.html
-
-Glossário: 
- - https://www.basketball-reference.com/about/glossary.html
- 
- - https://www.nba.com/stats/help/statminimums
