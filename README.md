@@ -8,6 +8,9 @@ O objetivo é oferecer uma visão abrangente do desempenho na liga, identificand
 Os dados utilizados para a análise foram coletados do site 'Basketball Reference', que contabiliza todas as estatísticas de jogadores e times da NBA desde o início da liga.
 Além disso, o glossário das estatísticas também fora retirado do mesmo site, além também do site oficial da NBA.
 
+OBS: Nos arquivos csv foram acrescentados uma coluna chamada 'id_player', na qual na base original da Basketball Reference não possui essa coluna. O id_player foi acrescentado para que fosse possível a junção de tabelas na hora de fazer as análises.
+
+
 Base de dados: https://www.basketball-reference.com/leagues/NBA_2024_totals.html
 
 Glossário: 
