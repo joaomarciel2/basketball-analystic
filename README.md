@@ -11,4 +11,5 @@ Além disso, o glossário das estatísticas também fora retirado do mesmo site,
 
 OBS: Nos arquivos csv foram acrescentados uma coluna chamada 'id_player', na qual na base original da Basketball Reference não possui essa coluna. O id_player foi acrescentado para que fosse possível a junção de tabelas na hora de fazer as análises.
 
+Você pode ver a análise completa e os insights gerados em meu artigo feito no Medium:
 
