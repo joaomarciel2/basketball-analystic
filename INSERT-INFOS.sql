@@ -1,6 +1,7 @@
 -- Criando o banco de dados onde ficará armazenada as tabelas e informações
 CREATE DATABASE nba_stats;
 
+
 -- Criando a tabela 'players' referente ao arquivo csv 'nba-stats-2023-players'
 CREATE TABLE players
 (id_player VARCHAR(60) NOT NULL,
@@ -12,6 +13,7 @@ team VARCHAR(150) NOT NULL,
 games_played INT NOT NULL,
 games_started INT NOT NULL,
 minutes_played INT NOT NULL);
+
 
 -- Criando a tabela 'stats' referente ao arquivo csv 'nba-stats-2023-points'
 CREATE TABLE stats
@@ -39,12 +41,14 @@ turnovers INT NOT NULL,
 personal_fouls INT NOT NULL,
 points INT NOT NULL);
 
+
 -- Inserindo os dados do arquivo 'nba-stats-2023-players.csv' na tabela players do SQL
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/nba-stats-2023-players.csv'
 INTO TABLE players
 FIELDS TERMINATED BY ',' ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS; -- Ignorando a primeira linha do arquivo por se tratar do cabeçalho
+
 
 -- Inserindo os dados do arquivo 'nba-stats-2023-points.csv' na tabela stats do SQL
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/nba-stats-2023-points.csv'
